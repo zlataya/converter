@@ -1,4 +1,0 @@
-{
-  "tests/test_converter_currency.py::test_conversion_from_to[GBP-GBP]": true,
-  "tests/test_converter_currency.py::test_rates_calculation": true
-}
