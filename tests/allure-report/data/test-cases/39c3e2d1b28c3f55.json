@@ -1,0 +1,37 @@
+{
+  "uid" : "39c3e2d1b28c3f55",
+  "name" : "test_conversion_from_to[CHF-EUR]",
+  "historyId" : "pytest:tests.test_converter_currency#test_conversion_from_to[CHF-EUR]",
+  "time" : {
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_converter_currency"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_converter_currency"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39c3e2d1b28c3f55.json",
+  "parameterValues" : [ ]
+}

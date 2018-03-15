@@ -1,0 +1,37 @@
+{
+  "uid" : "9467e0523cd1e676",
+  "name" : "test_conversion_from_to[USD-EUR]",
+  "historyId" : "pytest:tests.test_converter_currency#test_conversion_from_to[USD-EUR]",
+  "time" : {
+    "duration" : 2267
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_converter_currency"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_converter_currency"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9467e0523cd1e676.json",
+  "parameterValues" : [ ]
+}

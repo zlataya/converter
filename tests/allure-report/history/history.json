@@ -1,0 +1,512 @@
+{
+  "pytest:tests.test_converter_currency#test_conversion_from_to[JPY-USD]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f2cb63d7eb24777",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2253
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[JPY-EUR]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "833df1ac1b319241",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2244
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[GBP-JPY]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2073986fef96e50d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2986
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[JPY-CHF]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a67f6172ef54555",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2675
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[USD-EUR]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9467e0523cd1e676",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2267
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_to_rub[JPY]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60c53ed535f9b630",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3179
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[EUR-CHF]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29e0110962a1bf64",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2279
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[CHF-GBP]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "122e4b8ef11222a7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2191
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[CHF-JPY]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d734cf53db410e83",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2844
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[USD-CHF]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca6914d3bbf84fd7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2208
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_to_rub[GBP]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5f93c64450ef570",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1673
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[USD-GBP]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc4a3eb2a2e18093",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2217
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[USD-JPY]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9555d198f9d5199",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2872
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[CHF-USD]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d484288d67d95030",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2226
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[CHF-EUR]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39c3e2d1b28c3f55",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2253
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_rub[JPY]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0fe923d58933d17",
+      "status" : "passed",
+      "time" : {
+        "duration" : 18128
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[EUR-JPY]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43feb56d76db0284",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2958
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_rub[GBP]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48a8b12336060897",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3543
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[EUR-GBP]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a7e77af99f6ca63",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2237
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[GBP-CHF]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fd66f4684e37f61",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2321
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_to_rub[EUR]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "116fd62222d9fb97",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1639
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_to_rub[CHF]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99ea79bd128187a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1559
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[GBP-EUR]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6f6b61ee725e5f0",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2198
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_rub[USD]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b20ce847d4816628",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3671
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[EUR-USD]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba883287068c927f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2358
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_rub[EUR]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a32b570d3eff78c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3568
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_rub[CHF]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d24ed78f5f882d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3634
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_to_rub[USD]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41201b88b963ac6f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1591
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[JPY-GBP]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2cc32d75758b867",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2168
+      }
+    } ]
+  },
+  "pytest:tests.test_converter_currency#test_conversion_from_to[GBP-USD]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66695ea9dfc825d0",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2258
+      }
+    } ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "uid" : "5a7e77af99f6ca63",
+  "name" : "test_conversion_from_to[EUR-GBP]",
+  "historyId" : "pytest:tests.test_converter_currency#test_conversion_from_to[EUR-GBP]",
+  "time" : {
+    "duration" : 2237
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_converter_currency"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_converter_currency"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a7e77af99f6ca63.json",
+  "parameterValues" : [ ]
+}

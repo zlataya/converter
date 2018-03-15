@@ -1,0 +1,241 @@
+[ {
+  "uid" : "b20ce847d4816628",
+  "name" : "test_conversion_from_rub[USD]",
+  "time" : {
+    "duration" : 3671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca6914d3bbf84fd7",
+  "name" : "test_conversion_from_to[USD-CHF]",
+  "time" : {
+    "duration" : 2208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d734cf53db410e83",
+  "name" : "test_conversion_from_to[CHF-JPY]",
+  "time" : {
+    "duration" : 2844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9555d198f9d5199",
+  "name" : "test_conversion_from_to[USD-JPY]",
+  "time" : {
+    "duration" : 2872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d24ed78f5f882d7",
+  "name" : "test_conversion_from_rub[CHF]",
+  "time" : {
+    "duration" : 3634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48a8b12336060897",
+  "name" : "test_conversion_from_rub[GBP]",
+  "time" : {
+    "duration" : 3543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29e0110962a1bf64",
+  "name" : "test_conversion_from_to[EUR-CHF]",
+  "time" : {
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba883287068c927f",
+  "name" : "test_conversion_from_to[EUR-USD]",
+  "time" : {
+    "duration" : 2358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60c53ed535f9b630",
+  "name" : "test_conversion_to_rub[JPY]",
+  "time" : {
+    "duration" : 3179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43feb56d76db0284",
+  "name" : "test_conversion_from_to[EUR-JPY]",
+  "time" : {
+    "duration" : 2958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "833df1ac1b319241",
+  "name" : "test_conversion_from_to[JPY-EUR]",
+  "time" : {
+    "duration" : 2244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5f93c64450ef570",
+  "name" : "test_conversion_to_rub[GBP]",
+  "time" : {
+    "duration" : 1673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a67f6172ef54555",
+  "name" : "test_conversion_from_to[JPY-CHF]",
+  "time" : {
+    "duration" : 2675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6f6b61ee725e5f0",
+  "name" : "test_conversion_from_to[GBP-EUR]",
+  "time" : {
+    "duration" : 2198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9467e0523cd1e676",
+  "name" : "test_conversion_from_to[USD-EUR]",
+  "time" : {
+    "duration" : 2267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2cc32d75758b867",
+  "name" : "test_conversion_from_to[JPY-GBP]",
+  "time" : {
+    "duration" : 2168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0fe923d58933d17",
+  "name" : "test_conversion_from_rub[JPY]",
+  "time" : {
+    "duration" : 18128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2073986fef96e50d",
+  "name" : "test_conversion_from_to[GBP-JPY]",
+  "time" : {
+    "duration" : 2986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a7e77af99f6ca63",
+  "name" : "test_conversion_from_to[EUR-GBP]",
+  "time" : {
+    "duration" : 2237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f2cb63d7eb24777",
+  "name" : "test_conversion_from_to[JPY-USD]",
+  "time" : {
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99ea79bd128187a",
+  "name" : "test_conversion_to_rub[CHF]",
+  "time" : {
+    "duration" : 1559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41201b88b963ac6f",
+  "name" : "test_conversion_to_rub[USD]",
+  "time" : {
+    "duration" : 1591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "116fd62222d9fb97",
+  "name" : "test_conversion_to_rub[EUR]",
+  "time" : {
+    "duration" : 1639
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "122e4b8ef11222a7",
+  "name" : "test_conversion_from_to[CHF-GBP]",
+  "time" : {
+    "duration" : 2191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc4a3eb2a2e18093",
+  "name" : "test_conversion_from_to[USD-GBP]",
+  "time" : {
+    "duration" : 2217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fd66f4684e37f61",
+  "name" : "test_conversion_from_to[GBP-CHF]",
+  "time" : {
+    "duration" : 2321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d484288d67d95030",
+  "name" : "test_conversion_from_to[CHF-USD]",
+  "time" : {
+    "duration" : 2226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39c3e2d1b28c3f55",
+  "name" : "test_conversion_from_to[CHF-EUR]",
+  "time" : {
+    "duration" : 2253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66695ea9dfc825d0",
+  "name" : "test_conversion_from_to[GBP-USD]",
+  "time" : {
+    "duration" : 2258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a32b570d3eff78c",
+  "name" : "test_conversion_from_rub[EUR]",
+  "time" : {
+    "duration" : 3568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

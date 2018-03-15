@@ -1,0 +1,37 @@
+{
+  "uid" : "66695ea9dfc825d0",
+  "name" : "test_conversion_from_to[GBP-USD]",
+  "historyId" : "pytest:tests.test_converter_currency#test_conversion_from_to[GBP-USD]",
+  "time" : {
+    "duration" : 2258
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_converter_currency"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_converter_currency"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66695ea9dfc825d0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,309 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest",
+    "children" : [ {
+      "name" : "test_conversion_from_rub[USD]",
+      "uid" : "b20ce847d4816628",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3671
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[USD-CHF]",
+      "uid" : "ca6914d3bbf84fd7",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2208
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[CHF-JPY]",
+      "uid" : "d734cf53db410e83",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2844
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[USD-JPY]",
+      "uid" : "b9555d198f9d5199",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2872
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_rub[CHF]",
+      "uid" : "2d24ed78f5f882d7",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3634
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_rub[GBP]",
+      "uid" : "48a8b12336060897",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3543
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[EUR-CHF]",
+      "uid" : "29e0110962a1bf64",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2279
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[EUR-USD]",
+      "uid" : "ba883287068c927f",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2358
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_to_rub[JPY]",
+      "uid" : "60c53ed535f9b630",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3179
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[EUR-JPY]",
+      "uid" : "43feb56d76db0284",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2958
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[JPY-EUR]",
+      "uid" : "833df1ac1b319241",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2244
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_to_rub[GBP]",
+      "uid" : "b5f93c64450ef570",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1673
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[JPY-CHF]",
+      "uid" : "1a67f6172ef54555",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2675
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[GBP-EUR]",
+      "uid" : "b6f6b61ee725e5f0",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2198
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[USD-EUR]",
+      "uid" : "9467e0523cd1e676",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2267
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[JPY-GBP]",
+      "uid" : "c2cc32d75758b867",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2168
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_rub[JPY]",
+      "uid" : "a0fe923d58933d17",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 18128
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[GBP-JPY]",
+      "uid" : "2073986fef96e50d",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2986
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[EUR-GBP]",
+      "uid" : "5a7e77af99f6ca63",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2237
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[JPY-USD]",
+      "uid" : "7f2cb63d7eb24777",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2253
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_to_rub[CHF]",
+      "uid" : "99ea79bd128187a",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1559
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_to_rub[USD]",
+      "uid" : "41201b88b963ac6f",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1591
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_to_rub[EUR]",
+      "uid" : "116fd62222d9fb97",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1639
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[CHF-GBP]",
+      "uid" : "122e4b8ef11222a7",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2191
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[USD-GBP]",
+      "uid" : "fc4a3eb2a2e18093",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2217
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[GBP-CHF]",
+      "uid" : "9fd66f4684e37f61",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2321
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[CHF-USD]",
+      "uid" : "d484288d67d95030",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2226
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[CHF-EUR]",
+      "uid" : "39c3e2d1b28c3f55",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2253
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_to[GBP-USD]",
+      "uid" : "66695ea9dfc825d0",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2258
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_conversion_from_rub[EUR]",
+      "uid" : "7a32b570d3eff78c",
+      "parentUid" : "1391e8d00208145d2c262e76f0a53c75",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3568
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1391e8d00208145d2c262e76f0a53c75"
+  } ]
+}

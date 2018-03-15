@@ -1,0 +1,37 @@
+{
+  "uid" : "43feb56d76db0284",
+  "name" : "test_conversion_from_to[EUR-JPY]",
+  "historyId" : "pytest:tests.test_converter_currency#test_conversion_from_to[EUR-JPY]",
+  "time" : {
+    "duration" : 2958
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_converter_currency"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_converter_currency"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43feb56d76db0284.json",
+  "parameterValues" : [ ]
+}

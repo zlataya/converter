@@ -1,0 +1,37 @@
+{
+  "uid" : "60c53ed535f9b630",
+  "name" : "test_conversion_to_rub[JPY]",
+  "historyId" : "pytest:tests.test_converter_currency#test_conversion_to_rub[JPY]",
+  "time" : {
+    "duration" : 3179
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.test_converter_currency"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_converter_currency"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60c53ed535f9b630.json",
+  "parameterValues" : [ ]
+}
