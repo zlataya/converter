@@ -17,10 +17,9 @@ def converter():
     rates_converter = WebUIHandler(heading='Калькулятор иностранных валют',
                                    url='http://www.sberbank.ru/ru/quotes/converter')
 
-    def teardown():
-        rates_converter.driver.quit()
+    yield rates_converter
 
-    return rates_converter
+    rates_converter.driver.quit()
 
 
 @pytest.mark.parametrize('ccy_to', ccy_names)

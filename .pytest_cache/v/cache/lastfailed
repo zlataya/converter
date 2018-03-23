@@ -1,0 +1,9 @@
+{
+  "tests/test_converter_currency.py::test_conversion_from_to[GBP-CHF]": true,
+  "tests/test_converter_currency.py::test_conversion_from_to[GBP-EUR]": true,
+  "tests/test_converter_currency.py::test_conversion_from_to[GBP-USD]": true,
+  "tests/test_converter_currency.py::test_conversion_from_to[USD-CHF]": true,
+  "tests/test_converter_currency.py::test_conversion_from_to[USD-EUR]": true,
+  "tests/test_converter_currency.py::test_conversion_from_to[USD-GBP]": true,
+  "tests/test_converter_currency.py::test_conversion_from_to[USD-JPY]": true
+}
