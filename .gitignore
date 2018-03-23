@@ -1,7 +1,8 @@
-*.pyc
-
-__pycache__
-
+/.idea
+/.pytest_cache
 .DS_Store
-
-.idea
+NWVTB
+Test1
+chromewebdriver.exe
+__pycache__
+*.pyc
