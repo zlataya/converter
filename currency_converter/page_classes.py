@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-class FilterBlock(object):
+class RatesFilterBlock(object):
     def __init__(self, driver):
         self.driver = driver
         self.actionChains = ActionChains(self.driver)
@@ -96,7 +96,7 @@ class FilterBlock(object):
         self.input.send_keys(value)
 
 
-class RadioGroup(object):
+class RatesRadioGroup(object):
     def __init__(self, driver):
         self.driver = driver
 
@@ -151,7 +151,7 @@ class RadioGroup(object):
                 break
 
 
-class Button(object):
+class RatesButton(object):
     def __init__(self, driver):
         self.driver = driver
         self.button = self.driver.find_element_by_css_selector('button[class=rates-button]')
@@ -161,5 +161,5 @@ class Button(object):
         self.driver.execute_script("arguments[0].scrollIntoView();", self.button)
         self.button.click()
 
-        # add this delay for refreshing result line
+        # add this delay for refreshing page after click
         time.sleep(0.5)

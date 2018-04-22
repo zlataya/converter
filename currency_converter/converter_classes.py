@@ -8,12 +8,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 
-from currency_converter.page_classes import FilterBlock
-from currency_converter.page_classes import RadioGroup
-from currency_converter.page_classes import Button
+from currency_converter.page_classes import RatesFilterBlock
+from currency_converter.page_classes import RatesRadioGroup
+from currency_converter.page_classes import RatesButton
 
 
-class WebUIHandler(object):
+class ConverterPage(object):
     def __init__(self, heading, url):
 
         self.driver = webdriver.Chrome(os.path.dirname(__file__) + '/chromedriver')
@@ -25,13 +25,13 @@ class WebUIHandler(object):
         self.driver.fullscreen_window()
 
         try:
-            element = WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 10).until(
                 ec.text_to_be_present_in_element((By.CSS_SELECTOR, '.header_widget'), text_=self.heading))
 
-            self.Table = Table(self.driver)
-            self.RadioGroup = RadioGroup(self.driver)
-            self.FilterBlock = FilterBlock(self.driver)
-            self.Button = Button(self.driver)
+            self.Table = ConverterTable(self.driver)
+            self.RadioGroup = RatesRadioGroup(self.driver)
+            self.FilterBlock = RatesFilterBlock(self.driver)
+            self.Button = RatesButton(self.driver)
             self.ConverterResults = ConverterResults(self.driver)
         except Exception:
             self.driver.quit()
@@ -91,7 +91,7 @@ class WebUIHandler(object):
         return self.Table.parse_table()
 
 
-class Table(object):
+class ConverterTable(object):
     def __init__(self, driver):
 
         self.driver = driver
@@ -177,8 +177,8 @@ class Table(object):
 
         # get the array header
         grd_data[key_ccy] = ccy
-        grd_data[key_buy] = WebUIHandler.data_conversion(rates_buy)
-        grd_data[key_sell] = WebUIHandler.data_conversion(rates_sell)
+        grd_data[key_buy] = ConverterPage.data_conversion(rates_buy)
+        grd_data[key_sell] = ConverterPage.data_conversion(rates_sell)
 
         return grd_data
 
@@ -202,7 +202,7 @@ class ConverterResults(object):
         ccy = re.findall('[A-Z]{3}', results.text)
         amount_str = re.findall('\d[\s|0-9]*,[0-9]{2}', results.text)
 
-        amount = WebUIHandler.data_conversion(amount_str)
+        amount = ConverterPage.data_conversion(amount_str)
 
         results = [(ccy_nme, amnt) for ccy_nme, amnt in zip(ccy, amount)]
 

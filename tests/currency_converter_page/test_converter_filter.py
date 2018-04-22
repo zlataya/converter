@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import pytest
-from currency_converter.converter_classes import WebUIHandler
 from currency_converter.converter_functions import calculate_rates
 
 radio_default_values = [('Источник', 'Счет в Сбербанке'),
@@ -10,16 +9,6 @@ radio_default_values = [('Источник', 'Счет в Сбербанке'),
                         ('Время', 'Текущее')]
 
 ccy_names = ['JPY', 'CHF', 'EUR', 'GBP', 'USD']
-
-
-@pytest.fixture(scope='module')
-def converter():
-    rates_converter = WebUIHandler(heading='Калькулятор иностранных валют',
-                                   url='http://www.sberbank.ru/ru/quotes/converter')
-
-    yield rates_converter
-
-    rates_converter.driver.quit()
 
 
 @pytest.mark.parametrize('ccy_to', ccy_names)
@@ -43,6 +32,7 @@ def test_conversion_from_rub(converter, ccy_to):
     # get the displayed result
     displayed = converter.displayed_results()
 
+    # separated asserts used in order to get detailed results
     assert displayed['RUB'] == 999999999999.99
     assert expected_rate == displayed[ccy_to]
 
@@ -68,6 +58,7 @@ def test_conversion_to_rub(converter, ccy_from):
     # get the displayed result
     displayed = converter.displayed_results()
 
+    # separated asserts used in order to get detailed results
     assert displayed[ccy_from] == 1.00
     assert expected_rate == displayed['RUB']
 
@@ -93,5 +84,6 @@ def test_conversion_from_to(converter, ccy_from, ccy_to):
     # get the displayed result
     displayed = converter.displayed_results()
 
+    # separated asserts used in order to get detailed results
     assert displayed[ccy_from] == 1000.00
     assert expected_rate == displayed[ccy_to]
