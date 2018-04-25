@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<currency_converter>
+   <test_case number='1'>
+       <ccy_from>RUB</ccy_from>
+       <ccy_to>USD</ccy_to>
+       <value>10</value>
+       <radio_group name='Источник'>
+           <radio>Карта Сбербанка</radio>
+       </radio_group>
+       <radio_group name='Получение'>
+           <radio>На счет в Сбербанке</radio>
+       </radio_group>
+       <radio_group name='Способ обмена'>
+           <radio>Интернет-банк</radio>
+       </radio_group>
+       <radio_group name='Пакет услуг'>
+           <radio>Нет пакета</radio>
+       </radio_group>
+       <radio_group name='Время'>
+           <radio>Текущее</radio>
+       </radio_group>
+   </test_case>
+   <test_case number='2'>
+       <ccy_from>USD</ccy_from>
+       <ccy_to>RUB</ccy_to>
+       <value>999999</value>
+       <radio_group name='Источник'>
+           <radio>Карта Сбербанка</radio>
+       </radio_group>
+       <radio_group name='Получение'>
+           <radio>На счет в Сбербанке</radio>
+       </radio_group>
+       <radio_group name='Способ обмена'>
+           <radio>Интернет-банк</radio>
+       </radio_group>
+       <radio_group name='Пакет услуг'>
+           <radio>Нет пакета</radio>
+       </radio_group>
+       <radio_group name='Время'>
+           <radio>Текущее</radio>
+       </radio_group>
+    </test_case>
+   <test_case number='3'>
+       <ccy_from>RUB</ccy_from>
+       <ccy_to>EUR</ccy_to>
+       <value>1</value>
+       <radio_group name='Источник'>
+           <radio>Карта Сбербанка</radio>
+       </radio_group>
+       <radio_group name='Получение'>
+           <radio>На счет в Сбербанке</radio>
+       </radio_group>
+       <radio_group name='Способ обмена'>
+           <radio>Интернет-банк</radio>
+       </radio_group>
+       <radio_group name='Пакет услуг'>
+           <radio>Нет пакета</radio>
+       </radio_group>
+       <radio_group name='Время'>
+           <radio>Текущее</radio></radio_group>
+   </test_case>
+</currency_converter>

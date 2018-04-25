@@ -9,6 +9,10 @@ def calculate_rates(value_to_convert, rate_to_sell=1, rate_to_buy=1, ccy_to_sell
     :return: converted value rounded to 2 precision after the decimal point
     """
 
+    # check if value_to_convert is integer or float
+    if type(value_to_convert) not in (int, float):
+        value_to_convert = float(value_to_convert)
+
     if not (ccy_to_sell and ccy_to_buy):
         ccy_to_sell = 'RUB'
 
