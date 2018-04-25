@@ -3,6 +3,6 @@
 .DS_Store
 NWVTB
 Test1
-chromewebdriver.exe
+chromewebdriver
 __pycache__
 *.pyc
